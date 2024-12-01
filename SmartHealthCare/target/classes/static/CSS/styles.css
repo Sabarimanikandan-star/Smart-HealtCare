@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f8f9fa !important;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.hero-section {
+    background: url('/Images/img1.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero-section .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero-section .btn-primary {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+/* Welcome Section */
+section.container.mt-5 {
+    margin-top: 40px;
+}
+
+section.container.mt-5 h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+section.container.mt-5 p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+section.container.mt-5 img {
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #f8f9fa;
+}
+
+.features-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.features-section .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.features-section img {
+    max-height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.features-section h5 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Appointment Form Section */
+section#appointmentForm {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section#appointmentForm h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section#appointmentForm p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section#appointmentForm .form-group label {
+    font-size: 18px;
+}
+
+section#appointmentForm .form-control {
+    font-size: 16px;
+    padding: 10px;
+}
+
+section#appointmentForm .btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer a {
+    color: #f8f9fa;
+    font-weight: bold;
+}
